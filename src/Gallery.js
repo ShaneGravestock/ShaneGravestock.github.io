@@ -4,8 +4,25 @@ import Lightbox from './Lightbox'
 
 const galleryItems = [
   
+                              {
+        title: "Richard Burns - The car that almost cost him the championship",
+        desc: "Post sound",
+        image_src: "RichardBurns.jpg",
+        video_url: "https://www.youtube.com/embed/QHrtwLdIBFI",
+        aspect_ratio: "16-9"
+    },
   
+   
   
+                            {
+        title: "Essential Worker",
+        desc: "Post sound",
+        image_src: "EssentialWorker.jpg",
+        video_url: "https://player.vimeo.com/video/652565028?h=f43b9afcfb",
+        aspect_ratio: "16-9"
+    },
+  
+    
                           {
         title: "Integral Powertrain",
         desc: "Post sound and music",
@@ -101,13 +118,6 @@ const galleryItems = [
         aspect_ratio: "16-9"
     }, 
     
-            {
-        title: "CBBC – The Playlist - Series 2 - The Vamps",
-        desc: "Sound recordist",
-        image_src: "ThePlaylist_TheVamps.jpg",
-        video_url: "https://player.vimeo.com/video/286330495",
-        aspect_ratio: "16-9"
-    },
     
                 {
         title: "Darksiders III - Keepers of the Void DLC",
@@ -117,21 +127,7 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-                 {
-        title: "Davent - Christmas Countdown",
-        desc: "Sound recordist",
-        image_src: "DaventCalendar.jpg",
-        video_url: "https://www.youtube.com/embed/0QaoCSdNX_0",
-        aspect_ratio: "16-9"
-    },
     
-                    {
-        title: "Plastic Free Pledge - Bottle Boy",
-        desc: "Sound recordist",
-        image_src: "Tony-Burke-Bottle-Boy.jpg",
-        video_url: "https://player.vimeo.com/video/294219728",
-        aspect_ratio: "16-9"
-    },
     
             {
         title: "TRILOGY - Short Magic Film - Maximilian Magic",
@@ -149,13 +145,6 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-            {
-        title: "CBBC – The Playlist - Series 2 - Sabrina Carpenter",
-        desc: "Sound recordist",
-        image_src: "ThePlaylist-Sabrina.jpg",
-        video_url: "https://player.vimeo.com/video/304843899",
-        aspect_ratio: "16-9"
-    },
     
         {
         title: "Sunburn Trailer 1",
@@ -191,39 +180,8 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
     
-    {
-        title: "Irwin Mitchell – Hannah Cockroft",
-        desc: "Sound recordist, sound design and sound mix",
-        image_src: "IM-DontQuitDoIt.jpg",
-        video_url: "https://www.youtube.com/embed/9V6k5POdwhI",
-        aspect_ratio: "16-9"
-    },
-    
-   
-    {
-        title: "Imaginography Logo Reveal",
-        desc: "Sound design and sound mix",
-        image_src: "Logo-Reveal.jpg",
-        video_url: "https://player.vimeo.com/video/156334709",
-        aspect_ratio: "16-9"
-    },
-
-    {
-        title: "Stonegate Pubs",
-        desc: "Sound design and sound mix",
-        image_src: "Stonegate.jpg",
-        video_url: "https://player.vimeo.com/video/145541484",
-        aspect_ratio: "16-9"
-    },
-    
-        {
-        title: "Sci-Fi 48 Hour Film Challenge",
-        desc: "Sound design, sound mix, sound recordist, and producer",
-        image_src: "48-Hour-Sci-Fi.jpg",
-        video_url: "https://player.vimeo.com/video/212563122",
-        aspect_ratio: "2-39-1"
-    }, 
-    
+       
+      
 
 
 ]
