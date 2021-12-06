@@ -4,6 +4,9 @@ import Lightbox from './Lightbox'
 
 const galleryItems = [
   
+  
+  
+  
                               {
         title: "Richard Burns - The car that almost cost him the championship",
         desc: "Post sound",
