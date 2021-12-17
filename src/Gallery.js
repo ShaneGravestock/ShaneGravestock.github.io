@@ -7,6 +7,17 @@ const galleryItems = [
   
   
   
+                                {
+        title: "Maisie: Britain's Oldest Drag Artiste - Feature Film Documentary",
+        desc: "Post sound",
+        image_src: "Maisie.jpg",
+        video_url: "https://www.youtube.com/embed/-PzYqOd7OBo",
+        aspect_ratio: "16-9"
+    },
+  
+  
+ 
+  
                               {
         title: "Richard Burns - The car that almost cost him the championship",
         desc: "Post sound",
