@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0a9c7ea0be1fd81c8e231ad2483fd79",
+    "revision": "4273b0c796392aec0360a96cad9667a9",
     "url": "/index.html"
   },
   {
-    "revision": "fba44ff33df48558abfa",
+    "revision": "752dfabca6af8828bc06",
     "url": "/static/css/main.4f9a5a08.chunk.css"
   },
   {
-    "revision": "054c7b1fa946511b7f42",
-    "url": "/static/js/2.992c9526.chunk.js"
+    "revision": "5bad21903d818de1ce25",
+    "url": "/static/js/2.b5e3146c.chunk.js"
   },
   {
-    "revision": "fba44ff33df48558abfa",
-    "url": "/static/js/main.ab36e80b.chunk.js"
+    "revision": "752dfabca6af8828bc06",
+    "url": "/static/js/main.5cc70824.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eda260b853c021f561e29c0507f37289",
     "url": "/static/media/Lidl.eda260b8.jpg"
+  },
+  {
+    "revision": "dc17bbd788a43555c48cf34fef91d670",
+    "url": "/static/media/Maisie.dc17bbd7.jpg"
   },
   {
     "revision": "2016d0e27a6cabe436de778e57827b9c",
