@@ -88,8 +88,8 @@ class Profile extends Component {
                     <p>Hey there, I’m Shane Gravestock, a sound designer/mixer and composer based in Liverpool. If you like my portfolio, looking to work with me or just to connect then get in touch on my <a href="/contact">contact page.</a></p>
                     <br/>
                     <p>My journey into audio started off as a drummer in a punk band when I was 17. At the time I recorded local bands at my school’s recording studio. From there I studied music technology at university, got a interest in sound for film and joined a production/post house in Brighton for 3 years to then go onto freelancing. Freelance has allowed me to work with many different clients in various formats such as film, TV, branded content, and video games, which has given me diverse experience to bring to new projects. </p>
-	            	<br/>
-                    <p>Recently a documentary I worked on called Maisie has won “best documentary” at <a href=“https://www.diff.ie/News/virgin-media-dublin-international-film-festival22-dfcc-award-winners-announced/“>Dublin International Film Festival</a> along with premiering at <a href=“https://sheffdocfest.com/film/maisie/“>Sheffield DocFest.</a> </p>
+		<br/>
+                    <p>Recently a documentary I worked on called Maisie has won “best documentary” at <a href="https://www.diff.ie/News/virgin-media-dublin-international-film-festival22-dfcc-award-winners-announced/">Dublin International Film Festival</a> along with premiering at <a href="https://sheffdocfest.com/film/maisie/">Sheffield DocFest.</a> </p>
                 </section>
 
                 <footer className="company-grid">
