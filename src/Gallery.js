@@ -26,6 +26,14 @@ const galleryItems = [
         aspect_ratio: "16-9"
     },
   
+  
+                              {
+        title: "Love Love Love - CBBC",
+        desc: "Post sound",
+        image_src: "LoveLoveLove.jpg",
+        video_url: "https://player.vimeo.com/video/748730621?h",
+        aspect_ratio: "16-9"
+    },
    
   
                             {
