@@ -29,7 +29,7 @@ const galleryItems = [
   
                               {
         title: "Love Love Love - CBBC",
-        desc: "Post sound",
+        desc: "Dubbing Mixer",
         image_src: "LoveLoveLove.jpg",
         video_url: "https://player.vimeo.com/video/748730621?h",
         aspect_ratio: "16-9"
