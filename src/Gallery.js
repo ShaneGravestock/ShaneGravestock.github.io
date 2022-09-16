@@ -184,33 +184,7 @@ const galleryItems = [
         video_url: "https://player.vimeo.com/video/292606380",
         aspect_ratio: "16-9"
     }, 
-    
-            {
-        title: "The Physiological Society - Conquering Exam Stress",
-        desc: "Sound design and sound mix",
-        image_src: "Exam-Stress.jpg",
-        video_url: "https://www.youtube.com/embed/-RZ86OB9hw4",
-        aspect_ratio: "16-9"
-    },
-    
-    {
-        title: "BASHH – Sexual Health Care",
-        desc: "Sound design and sound mix",
-        image_src: "BASHH.jpg",
-        video_url: "https://www.youtube.com/embed/3K_wMpiz2qE",
-        
-        aspect_ratio: "16-9"
-    },
-    
-
-    {
-        title: "Fukui Looping",
-        desc: "Sound design and mix",
-        image_src: "Fukui_Looping.jpg",
-        video_url: "https://player.vimeo.com/video/189653401",
-        aspect_ratio: "16-9"
-    },
-    
+   
        
       
 
