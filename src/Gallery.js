@@ -46,10 +46,10 @@ const galleryItems = [
   
     
                           {
-        title: "Integral Powertrain",
+        title: "Helix Product Launce",
         desc: "Post sound and music",
         image_src: "IntegralPowertrain.jpg",
-        video_url: "https://www.youtube.com/embed/2TGs5l3CTAk",
+        video_url: "https://www.youtube.com/embed/uXmqiomlGU4",
         aspect_ratio: "16-9"
     },
 
