@@ -66,7 +66,7 @@ const galleryItems = [
         title: "VIZIO P Series X Quantum: Sound Re-Design",
         desc: "Sound design and music",
         image_src: "VIZIO-Re-Design.jpg",
-        video_url: "https://player.vimeo.com/video/798722678",
+        video_url: "https://player.vimeo.com/video/798722678?h=6da2ac9f23",
         aspect_ratio: "16-9"
     },
             
