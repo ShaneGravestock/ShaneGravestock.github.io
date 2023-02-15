@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53dbed276c2a922c6aa54a20ef20f563",
+    "revision": "52734d4e8580e6708d622205ea7a710a",
     "url": "/index.html"
   },
   {
-    "revision": "b6196c92cbd27544f03d",
+    "revision": "070c81e9a4c1c1ccf24e",
     "url": "/static/css/main.4f9a5a08.chunk.css"
   },
   {
-    "revision": "0faf44435d2b75c92b1e",
-    "url": "/static/js/2.d12ae9e3.chunk.js"
+    "revision": "f7c0c2942161031e17fc",
+    "url": "/static/js/2.0093d2d5.chunk.js"
   },
   {
-    "revision": "b6196c92cbd27544f03d",
-    "url": "/static/js/main.f7e1779a.chunk.js"
+    "revision": "070c81e9a4c1c1ccf24e",
+    "url": "/static/js/main.0eafe1b4.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -134,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3971585d4de7369dad973ecb69b8dccc",
     "url": "/static/media/Underwater.3971585d.jpg"
+  },
+  {
+    "revision": "6ae4c9eee369a565e74b2c651950380e",
+    "url": "/static/media/VIZIO-Re-Design.6ae4c9ee.jpg"
   },
   {
     "revision": "4e1d4d3cb60b4284f6d91b0acf740116",
