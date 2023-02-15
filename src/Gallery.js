@@ -60,6 +60,15 @@ const galleryItems = [
         video_url: "https://www.youtube.com/embed/eK7FY_YDs3g",
         aspect_ratio: "16-9"
     },
+  
+  
+                         {
+        title: "VIZIO P Series X Quantum: Sound Re-Design",
+        desc: "Sound design and music",
+        image_src: "VIZIO-Re-Design.jpg",
+        video_url: "https://player.vimeo.com/video/798722678",
+        aspect_ratio: "16-9"
+    },
             
             
             {
