@@ -3,10 +3,26 @@ import './Gallery.css';
 import Lightbox from './Lightbox'
 
 const galleryItems = [
+
+
+                  {
+        title: "Salesman to MP",
+        desc: "Post sound",
+        image_src: "SalesmanToMP.jpg",
+        video_url: "https://www.youtube.com/embed/cgpl9rZXHnM?si=wnr94dfOdfCIk9WV",
+        aspect_ratio: "16-9"
+    }, 
   
+
+                  {
+        title: "Draw a spider with Jonny",
+        desc: "Post sound and music",
+        image_src: "DrawWithJonnySpider.jpg",
+        video_url: "https://www.youtube.com/embed/tCbCIwhFqVg?si=4GjKAAWFW4gWyQH0",
+        aspect_ratio: "16-9"
+    }, 
   
-  
-  
+    
                                 {
         title: "Maisie: Britain's Oldest Drag Artiste - Feature Film Documentary",
         desc: "Post sound",
@@ -165,34 +181,10 @@ const galleryItems = [
         image_src: "Darksiders3DLC.jpg",
         video_url: "https://www.youtube.com/embed/05mo_zeBu8A",
         aspect_ratio: "16-9"
-    },
-    
-    
-    
-            {
-        title: "TRILOGY - Short Magic Film - Maximilian Magic",
-        desc: "Sound effects and mix",
-        image_src: "Maximilian_Magic.jpg",
-        video_url: "https://www.youtube.com/embed/48kRARpCi84",
-        aspect_ratio: "16-9"
-    },    
-    
-            {
-        title: "UK Power Networks – Short",
-        desc: "Sound recordist and post sound",
-        image_src: "UK Power Networks_Short.jpg",
-        video_url: "https://player.vimeo.com/video/267422697",
-        aspect_ratio: "16-9"
-    },
-    
-    
-        {
-        title: "Sunburn Trailer 1",
-        desc: "Sound design and sound mix",
-        image_src: "Sunburn-Trailer01.jpg",
-        video_url: "https://player.vimeo.com/video/292606380",
-        aspect_ratio: "16-9"
     }, 
+    
+    
+
    
        
       
