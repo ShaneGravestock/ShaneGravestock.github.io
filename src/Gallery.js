@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Gallery.css';
 import Lightbox from './Lightbox'
 
@@ -182,59 +182,42 @@ const galleryItems = [
         video_url: "https://www.youtube.com/embed/05mo_zeBu8A",
         aspect_ratio: "16-9"
     }, 
-    
-    
-
-   
-       
-      
-
 
 ]
 
-class Gallery extends Component {
+const Gallery = () => {
 
-    state = {
-        currentActive: null
-    }
+    const [currentActive, setActive] = useState(null)
 
-    setLightbox = (pos) => {
+    const setLightbox = (pos) => {
         if ((pos && pos < galleryItems.length && pos > 0) || pos === 0) {
             let newObj = galleryItems[pos]
             newObj.count = pos
-            this.setState({currentActive: newObj})
+            setActive(newObj)
         } else {
-            this.setState({currentActive: null})
+            setActive(null)
         }
         
     }
-
-    render() {
-        const GalleryImages = galleryItems.map((image, index) => {
-            return <Image className={`gallery-item`} aspect_ratio={image.aspect_ratio} key={index} title={image.title} desc={image.text} image_src={image.image_src} video_url={image.video_url} onClick={() => this.setLightbox(index)}/>
-        })
-        
-        return (
-            <div className="container">
-                <ul className="gallery-container">{GalleryImages}</ul>
-                {this.state.currentActive ? <Lightbox item={this.state.currentActive} func={this.setLightbox}/> : ''}
-            </div>
-        )
-    }
+ 
+    return (
+        <div className="container">
+            <ul className="gallery-container">{
+        galleryItems.map((image, index) => {
+            return <Image className={`gallery-item`} aspect_ratio={image.aspect_ratio} key={index} title={image.title} desc={image.text} image_src={image.image_src} video_url={image.video_url} onClick={() => setLightbox(index)}/>
+        })}</ul>
+            {currentActive ? <Lightbox item={currentActive} func={setLightbox}/> : ''}
+        </div>
+    )
 }
 
-class Image extends Component {
-    render() {
-
-        const {className, title, onClick, image_src } = this.props;
-
-        return (
-            <li className={className} onClick={onClick}>
-                <img loading="lazy" src={require("./gallery/" + image_src)} alt={title}/>
-                <span className="player-button">&#xf04b;</span>
-            </li>
-        )
-    }
+const Image = ({className, title, onClick, image_src}) => {
+    return (
+        <li className={className} onClick={onClick}>
+        <img loading="lazy" src={require("./gallery/" + image_src)} alt={title}/>
+        <span className="player-button">&#xf04b;</span>
+    </li>
+    )
 }
 
 

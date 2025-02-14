@@ -1,16 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Nav.css';
-import {Route, Link} from 'react-router-dom'
-import {Gallery} from './Gallery';
-import Showreel from './pages/showreel';
-import Profile from './pages/profile.js';
-import Contact from './pages/contact.js';
-import Thanks from './pages/thanks.js';
+import {Link} from 'react-router-dom'
 
-class Nav extends Component {
-    render() {
+const Nav = () => {
         return (
-            <div className="page-container">
+            <div>
                 <div className="navigation">
                     <h1><Link to="/">Shane Gravestock</Link></h1>
                     <ul className="menu-items">
@@ -38,14 +32,8 @@ class Nav extends Component {
                     </ul>
                     
                 </div>
-                <Route exact path="/" component={Gallery}/>
-                <Route path="/showreel" component={Showreel}/>
-                <Route path="/profile" component={Profile}/>
-                <Route path="/contact" component={Contact}/>
-                <Route path="/thanks" component={Thanks}/>
             </div>
         );
-    }
 }
 
 export default Nav;

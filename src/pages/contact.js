@@ -1,22 +1,19 @@
-import React, { Component } from 'react';
-import TextField from '@material-ui/core/TextField';
+import React from 'react';
+import TextField from '@mui/material/TextField';
 import './contact.css'
 
+const Contact = () => {
 
-class Contact extends Component {
-
-    state = {
+    const email = {
         first_name: 'shane',
         last_name: 'gravestock',
         tld: '.net'
     }
 
-    render() {
-
         return (
             <div className="contact-wrapper">
             <div className="header">
-                <p>Contact me at {this.state.first_name}@{this.state.last_name}{this.state.tld}</p>
+                <p>Contact me at {email.first_name}@{email.last_name}{email.tld}</p>
                 <p>Or leave me a message below</p>
             </div>
                 <form className="contact-form" method="POST" action="https://formspree.io/shane@gravestock.net">
@@ -70,7 +67,6 @@ class Contact extends Component {
                 
             </div>
         );
-    }
 }
 
 export default Contact;

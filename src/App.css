@@ -15,10 +15,6 @@
   color: white;
 }
 
-.page-container {
-  min-height: calc(100vh - 2.9em);
-}
-
 .App-intro {
   font-size: large;
 }
