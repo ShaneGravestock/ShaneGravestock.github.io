@@ -1,21 +1,13 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Lightbox.css';
-const Lightbox = ({item, func}) => {
+const Lightbox = ({item, position, onClick}) => {
 
-    const [toggleInfo, setToggleInfo] = useState(second)
-
-    close = (func) => {
-        func(null)
-    }
-
-    toggleDesc = () => {
-        setToggleInfo(!toggleInfo);
-    }
+    const [toggleInfo, setToggleInfo] = useState(false)
 
     return (
         <div className="lightbox-container" >
-            <NextItem pos={item.count} func={func}/>
-            <PrevItem pos={item.count} func={func}/>
+            <NextItem pos={position} onClick={onClick}/>
+            <PrevItem pos={position} onClick={onClick}/>
             <div className="lightbox">
                 <div className="lightbox-header">
                     <div className="lightbox-title">
@@ -23,7 +15,7 @@ const Lightbox = ({item, func}) => {
                         <h4>{item.desc}</h4>
                     </div>
                     <div className="controls">
-                        <CloseLightbox func={func}/>
+                        <CloseLightbox onClick={onClick}/>
                     </div>
                 </div>
 
@@ -46,36 +38,37 @@ const Lightbox = ({item, func}) => {
     )
 }
 
-const NextItem = ({pos, func}) => {
+const NextItem = ({pos, onClick}) => {
 
-    const nextItem = (pos, func) => {
-        func(pos+1)
+    const nextItem = (pos) => {
+        console.log('clicked', pos);
+        onClick(pos+1)
     }
 
     return (
-        <div className="next-item" onClick={() => {nextItem(pos, func)}}></div>
+        <div className="next-item" onClick={() => nextItem(pos)}></div>
     )
 }
 
-const PrevItem = ({pos, func}) => {
+const PrevItem = ({pos, onClick}) => {
 
-    const prevItem = (pos, func) => {
-        func(pos-1)
+    const prevItem = (pos) => {
+        onClick(pos-1)
     }
 
     return (
-        <div className="prev-item" onClick={() => {prevItem(pos, func)}}></div>
+        <div className="prev-item" onClick={() => prevItem(pos)}></div>
     )
 }
 
-const CloseLightbox = ({func}) => {
+const CloseLightbox = ({onClick}) => {
 
-    const close = (func) => {
-        func(null)
+    const close = () => {
+        onClick(null)
     }
     
     return (
-        <div className="close-lightbox" onClick={() => {close(func)}}></div>
+        <div className="close-lightbox" onClick={() => close()}></div>
     )
 }
 

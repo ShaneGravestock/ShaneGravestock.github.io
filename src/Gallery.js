@@ -188,12 +188,12 @@ const galleryItems = [
 const Gallery = () => {
 
     const [currentActive, setActive] = useState(null)
+    const [position, setPosition] = useState(null)
 
     const setLightbox = (pos) => {
-        if ((pos && pos < galleryItems.length && pos > 0) || pos === 0) {
-            let newObj = galleryItems[pos]
-            newObj.count = pos
-            setActive(newObj)
+        if (pos !== null) {
+            setPosition(pos);
+            setActive(galleryItems[pos])
         } else {
             setActive(null)
         }
@@ -206,7 +206,7 @@ const Gallery = () => {
         galleryItems.map((image, index) => {
             return <Image className={`gallery-item`} aspect_ratio={image.aspect_ratio} key={index} title={image.title} desc={image.text} image_src={image.image_src} video_url={image.video_url} onClick={() => setLightbox(index)}/>
         })}</ul>
-            {currentActive ? <Lightbox item={currentActive} func={setLightbox}/> : ''}
+            {currentActive ? <Lightbox item={currentActive} position={position} onClick={setLightbox}/> : ''}
         </div>
     )
 }
